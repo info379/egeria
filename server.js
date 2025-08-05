@@ -19,10 +19,15 @@ app.post('/api/egeria', async (req, res) => {
     "Content-Type": "application/json",
     "Authorization": `Bearer ${apiKey}`
   },
+
   body: JSON.stringify({
     model: "gpt-4o",
-    messages: [{ role: "user", content: prompt }]
+    messages: [
+    { role: "system", content: "Sei Egeria, un assistente che risponde con le policy interne di UpManage srl" },
+    { role: "user", content: prompt }
+  ]
   })
+
 });
 
     const data = await response.json();

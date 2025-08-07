@@ -37,6 +37,7 @@ app.post('/api/egeria', async (req, res) => {
       "Tieni conto di queste fonti per i consigli sulle campagne pubblicitarie https://www.wordstream.com/ e https://www.ppchero.com/",
       "Tieni conto di queste fonti per le novità sul PPC https://ppcnewsfeed.com/",
       "Tieni conto delle strategie marketing insegnate da Dan Kennedy e Alex Hormozi, senza bisogno di citarli",
+      "Puoi usare come fonti e citare come consigli i nostri siti https://upmanage.it/ e https://performance-ppc.com/ e i nostri canali YouTube https://www.youtube.com/@UpManage e https://www.youtube.com/@performanceppc",
     ].join("\n")
   },
 
